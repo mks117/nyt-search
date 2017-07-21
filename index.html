@@ -7,7 +7,10 @@
 	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/script.css">
 </head>
 <body>
 
@@ -48,15 +51,16 @@
 						<input type="search" class="form-control" id="endYear" placeholder="1929">
 					</div>
 			</form>
-			<p>
-				<!-- Search Button -->
-				<button type="button" class="btn btn-primary btn-lg">Search</button>
-				<!-- Clear Results Button -->
-				<button type="button" class="btn btn-primary btn-lg">Clear Results</button>
-			</p>
+				<p>
+		      <!-- Search Button -->
+		      <button type="submit" class="btn btn-primary btn-lg searchBtn">Search</button>
+		      <!-- Clear Results Button -->
+          <button type="submit" class="btn btn-primary btn-lg clearBtn">Clear Results</button>
+	      </p>
   		</div>
 	</div>
 	
+
 
 	<!-- Top Articles Div -->
 	<!-- top articles get dumped here -->
@@ -73,5 +77,6 @@
 
 </div>
 
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
