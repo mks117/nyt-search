@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 .panel-title {
 	font-weight: bold;
+=======
+.glyphicon-list, .glyphicon-search {
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+#title {
+	text-align: center;
+>>>>>>> 1d08065ee8da14dc92772c3ca6366fda4e993265
 }
